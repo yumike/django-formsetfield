@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title></title>
+</head>
+<body>
+  <form action="" method="post">{% csrf_token %}
+    <div>{{ form.as_p }}</div>
+    <div><input type="submit"></div>
+  </form>
+  <div><h1>cleaned data:</h1> <pre>{{ form.cleaned_data }}</pre></div>
+</body>
+</html>
