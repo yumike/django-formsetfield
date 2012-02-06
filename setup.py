@@ -8,7 +8,7 @@ def read(filename):
 
 setup(
     name='django-formsetfield',
-    version='0.1',
+    version='0.1.1',
     license='ISC',
     description='Formsets inside forms',
     long_description=read('README.rst'),
@@ -16,6 +16,7 @@ setup(
     author='Mike Yumatov',
     author_email='mike@yumatov.org',
     packages=find_packages(),
+    include_package_data=True,
     classifiers=[
         'Development Status :: 4 - Beta',
         'Framework :: Django',
