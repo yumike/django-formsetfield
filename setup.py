@@ -16,6 +16,7 @@ setup(
     author='Mike Yumatov',
     author_email='mike@yumatov.org',
     packages=find_packages(),
+    include_package_data=True,
     classifiers=[
         'Development Status :: 4 - Beta',
         'Framework :: Django',
